@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vishal Yadav — Portfolio
 
-## Getting Started
+A production-quality personal portfolio for a **Data Analyst & Data Science** student.
+Dark-first "Grid" aesthetic (Vercel/Linear inspired) with smooth motion, glassmorphism and
+gradient accents.
 
-First, run the development server:
+## Tech stack
+
+- **Next.js 16** (App Router, Turbopack) · **React 19** · **TypeScript** (strict)
+- **Tailwind CSS v4** with a custom token-based design system
+- **Framer Motion** for animations · **Lucide** for icons
+- **next-themes** for dark/light mode
+- shadcn-style UI primitives (hand-rolled `Button`, `Card`, `Badge`, `Input`, `Textarea`)
+
+## Features
+
+Dark/light mode · mobile responsive · loading animation · scroll animations · project
+filtering + search · interactive timelines · animated counters · glassmorphism · gradient
+backgrounds · cursor-spotlight hover · SEO metadata · `sitemap.xml` · `robots.txt` ·
+dynamic Open Graph image · accessible focus states & reduced-motion support.
+
+## Pages
+
+`/` landing · `/about` · `/projects` (+ `/projects/[slug]` case studies) · `/skills` ·
+`/certifications` · `/contact`
+
+## Getting started
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Scripts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run dev      # dev server
+npm run build    # production build
+npm start        # serve the production build
+npm run lint     # eslint
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Customising content
 
-## Learn More
+All content is data-driven — edit these files, no component changes needed:
 
-To learn more about Next.js, take a look at the following resources:
+- `src/lib/site.ts` — name, role, email, social links, résumé path
+- `src/lib/data/projects.ts` — projects & case-study detail
+- `src/lib/data/skills.ts` — skill groups & levels
+- `src/lib/data/certifications.ts` — certifications timeline
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Images
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The site ships with hand-coded SVG illustrations and **optional drop-in image slots**.
+See [`public/images/README.md`](public/images/README.md) to add a real profile photo and
+project covers. Replace `public/resume.pdf` with your real résumé.
 
-## Deploy on Vercel
+## Deploy to Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This repo is Vercel-ready (zero config). Either:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Push to GitHub and "Import Project" at https://vercel.com/new, **or**
+2. From this folder:
+
+   ```bash
+   npm i -g vercel
+   vercel          # preview deploy
+   vercel --prod   # production deploy
+   ```
+
+After deploying, set `siteConfig.url` in `src/lib/site.ts` to your real domain so the
+sitemap, canonical URLs and Open Graph tags use it.
