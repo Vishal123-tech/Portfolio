@@ -3,7 +3,7 @@ export const siteConfig = {
   role: "Data Analyst | Data Science Enthusiast",
   description:
     "Building impactful data solutions with SQL, Python, Machine Learning, and Power BI.",
-  url: "https://vishal-yadav.vercel.app",
+  url: "https://portfolio-one-sigma-39.vercel.app",
   location: "Mumbai, Maharashtra, India",
   email: "vishalyadav.analytics@gmail.com",
   phone: "+91 9619039381",
