@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { Mail, ArrowUpRight } from "lucide-react";
 import { navItems, siteConfig } from "@/lib/site";
-import { GithubIcon, LinkedinIcon } from "@/components/icons";
+import { GithubIcon, LinkedinIcon, KaggleIcon } from "@/components/icons";
 import { Logo } from "./logo";
 
 const socials = [
   { label: "GitHub", href: siteConfig.links.github, icon: GithubIcon },
   { label: "LinkedIn", href: siteConfig.links.linkedin, icon: LinkedinIcon },
+  { label: "Kaggle", href: siteConfig.links.kaggle, icon: KaggleIcon },
   { label: "Email", href: `mailto:${siteConfig.email}`, icon: Mail },
 ];
 
@@ -63,7 +64,7 @@ export function Footer() {
           </a>
           <a
             href={siteConfig.resumeUrl}
-            download
+            download={siteConfig.resumeFileName}
             className="group inline-flex items-center gap-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
             Download résumé

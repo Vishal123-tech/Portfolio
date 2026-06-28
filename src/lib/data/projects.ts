@@ -31,63 +31,17 @@ export interface Project {
   screenshots: { caption: string }[];
 }
 
-const GITHUB = "https://github.com/Vishal123-tech";
-
 export const projects: Project[] = [
-  {
-    slug: "diabetes-classification",
-    title: "Diabetes Classification Pipeline",
-    tagline: "LightGBM + Optuna classification reaching 90.07% accuracy with SHAP explainability.",
-    category: "Machine Learning",
-    year: "2026",
-    featured: true,
-    tech: ["Python", "LightGBM", "Optuna", "Scikit-learn", "SHAP"],
-    illustration: "ml",
-    githubUrl: GITHUB,
-    overview:
-      "An end-to-end binary classification pipeline that predicts diabetes risk. The workflow covers preprocessing, feature engineering, LightGBM modelling, Optuna hyperparameter tuning and SHAP interpretability — pushing accuracy roughly 14 percentage points above the baseline.",
-    features: [
-      "End-to-end pipeline: preprocessing → model → evaluation",
-      "Feature engineering to boost signal",
-      "LightGBM model tuned with Optuna",
-      "Cross-validated model selection to avoid overfitting",
-      "SHAP interpretability for per-feature impact",
-    ],
-    challenges: [
-      "Lifting accuracy ~14 pp above the baseline model.",
-      "Preventing overfitting during aggressive hyperparameter search.",
-      "Making the model's decisions explainable with SHAP.",
-    ],
-    results: [
-      { label: "Model accuracy", value: 90.07, suffix: "%" },
-      { label: "Uplift vs baseline", value: 14, prefix: "+", suffix: " pp" },
-      { label: "Cross-validation folds", value: 5 },
-      { label: "Optuna trials", value: 50, suffix: "+" },
-    ],
-    resultNarrative:
-      "Engineering the right features and tuning LightGBM with Optuna delivered 90.07% accuracy — about a 14 percentage-point improvement over the baseline — with SHAP confirming which features drove predictions.",
-    architecture: [
-      { step: "Preprocess", detail: "Clean & encode the dataset" },
-      { step: "Engineer", detail: "Derive predictive features" },
-      { step: "Tune", detail: "LightGBM + Optuna, CV-validated" },
-      { step: "Explain", detail: "SHAP feature attribution" },
-    ],
-    screenshots: [
-      { caption: "Confusion matrix & metrics" },
-      { caption: "Optuna optimization history" },
-      { caption: "SHAP summary plot" },
-    ],
-  },
   {
     slug: "ai-jobs-layoff-risk",
     title: "AI Impact on Jobs & Layoff Risk Analysis",
     tagline: "EDA on 9,000+ job records quantifying AI automation exposure and layoff risk.",
-    category: "Data Analysis",
+    category: "Machine Learning",
     year: "2025",
     featured: true,
     tech: ["Python", "Pandas", "Seaborn", "Matplotlib", "EDA"],
     illustration: "sql",
-    githubUrl: GITHUB,
+    githubUrl: "https://github.com/Vishal123-tech/AI-Impact-on-Jobs-and-Layoff-Risk-Dataset",
     overview:
       "A data-analysis project that curates and explores 9,000+ job records across 15+ industries to quantify AI automation exposure and layoff risk by role, sector and geography. The output is a structured, reproducible dataset and analysis notebook published as an open resource.",
     features: [
@@ -126,12 +80,12 @@ export const projects: Project[] = [
     slug: "customer-segmentation",
     title: "Customer Segmentation & Value Analysis",
     tagline: "RFM + K-Means segmentation isolating the high-value cohorts that drive revenue.",
-    category: "Machine Learning",
+    category: "Data Analysis",
     year: "2026",
     featured: true,
     tech: ["Python", "Pandas", "K-Means", "Power BI", "Seaborn"],
     illustration: "ml",
-    githubUrl: GITHUB,
+    githubUrl: "https://github.com/Vishal123-tech/Customer-Segmentation-Value-Analysis",
     overview:
       "An unsupervised analytics pipeline that segments customers from transactional data using K-Means clustering on engineered RFM features. High-value cohorts are surfaced and communicated through Power BI dashboards to support targeted marketing and retention.",
     features: [
@@ -166,101 +120,12 @@ export const projects: Project[] = [
       { caption: "Power BI segment dashboard" },
     ],
   },
-  {
-    slug: "insurance-cost-prediction",
-    title: "Insurance Cost Prediction",
-    tagline: "Benchmarked 7+ regression models with cross-validated tuning for the lowest RMSE.",
-    category: "Machine Learning",
-    year: "2026",
-    featured: false,
-    tech: ["Python", "Scikit-learn", "XGBoost", "LightGBM", "CatBoost"],
-    illustration: "ml",
-    githubUrl: GITHUB,
-    overview:
-      "A regression project predicting insurance cost. It systematically benchmarks 7+ models with cross-validated hyperparameter search and selects the best performer by RMSE and R² — with gradient-boosting libraries leading the pack.",
-    features: [
-      "Benchmarked 7+ regression algorithms",
-      "Cross-validated hyperparameter search",
-      "Feature preprocessing & transformation",
-      "Best-model selection by RMSE and R²",
-      "Reproducible, serialised pipeline",
-    ],
-    challenges: [
-      "Fairly comparing 7+ models under one protocol.",
-      "Driving RMSE down through systematic tuning.",
-      "Preventing overfitting with cross-validation.",
-    ],
-    results: [
-      { label: "Models benchmarked", value: 7, suffix: "+" },
-      { label: "RMSE rank", value: 1, prefix: "#" },
-      { label: "Cross-validation folds", value: 5 },
-      { label: "Boosting libraries", value: 3 },
-    ],
-    resultNarrative:
-      "A systematic, cross-validated hyperparameter search delivered the lowest RMSE and highest R² among 7+ regression models, with gradient-boosting libraries (XGBoost, LightGBM, CatBoost) leading.",
-    architecture: [
-      { step: "Prepare", detail: "Preprocess & transform features" },
-      { step: "Benchmark", detail: "Train 7+ regressors" },
-      { step: "Tune", detail: "Cross-validated search" },
-      { step: "Select", detail: "Best by RMSE / R²" },
-    ],
-    screenshots: [
-      { caption: "Model RMSE comparison" },
-      { caption: "Predicted vs actual cost" },
-      { caption: "Residual analysis" },
-    ],
-  },
-  {
-    slug: "retail-customer-analytics",
-    title: "Retail Customer Analytics System",
-    tagline: "Final-year capstone: SQL data modelling + Power BI dashboards for retail decisions.",
-    category: "Dashboard",
-    year: "2026",
-    featured: false,
-    tech: ["Python", "SQL", "Power BI"],
-    illustration: "powerbi",
-    githubUrl: GITHUB,
-    overview:
-      "A final-year capstone building a retail customer-analytics system. It analyses customer behaviour patterns using Python and SQL, then surfaces them through interactive Power BI dashboards designed for strategic decision-making.",
-    features: [
-      "Customer behaviour pattern analysis",
-      "SQL-based data extraction & modelling",
-      "Interactive Power BI dashboards",
-      "KPI views for strategic decisions",
-      "End-to-end flow from data to dashboard",
-    ],
-    challenges: [
-      "Modelling retail data into a clean, queryable structure.",
-      "Translating behaviour patterns into meaningful KPIs.",
-      "Designing dashboards that are intuitive for decision-makers.",
-    ],
-    results: [
-      { label: "Tools integrated", value: 3 },
-      { label: "Power BI dashboards", value: 1, suffix: "+" },
-      { label: "SQL queries", value: 20, suffix: "+" },
-      { label: "Customer KPIs", value: 8, suffix: "+" },
-    ],
-    resultNarrative:
-      "An in-progress final-year capstone that combines SQL data modelling with interactive Power BI dashboards, giving a 360° view of retail customer behaviour to support strategic decisions.",
-    architecture: [
-      { step: "Extract", detail: "Pull retail data with SQL" },
-      { step: "Model", detail: "Structure for analysis" },
-      { step: "Analyse", detail: "Behaviour patterns in Python" },
-      { step: "Dashboard", detail: "Interactive Power BI views" },
-    ],
-    screenshots: [
-      { caption: "Customer behaviour overview" },
-      { caption: "Sales & KPI dashboard" },
-      { caption: "Segment drill-down" },
-    ],
-  },
 ];
 
 export const projectCategories: ("All" | ProjectCategory)[] = [
   "All",
-  "Machine Learning",
   "Data Analysis",
-  "Dashboard",
+  "Machine Learning",
 ];
 
 export function getProject(slug: string): Project | undefined {

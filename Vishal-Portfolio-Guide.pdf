@@ -1,0 +1,665 @@
+%PDF-1.4
+1 0 obj
+<</Type/Catalog/Pages 2 0 R>>
+endobj
+2 0 obj
+<</Type/Pages/Kids[7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R]/Count 7>>
+endobj
+3 0 obj
+<</Type/Font/Subtype/Type1/BaseFont/Helvetica>>
+endobj
+4 0 obj
+<</Type/Font/Subtype/Type1/BaseFont/Helvetica-Bold>>
+endobj
+5 0 obj
+<</Type/Font/Subtype/Type1/BaseFont/Courier>>
+endobj
+6 0 obj
+<</Length 4047>>
+stream
+0.42 0.28 0.85 rg
+BT /F2 21 Tf 56.0 738.0 Td (Vishal Yadav Portfolio - Owner's Guide) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 700.0 Td (A complete handbook for running, updating, and handing off this website. No prior) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 685.5 Td (coding knowledge required for the content edits in Section 4.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 664.0 Td (Project location on this PC:) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 649.5 Td (C:/Users/vy355/.claude/vishal-portfolio) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 628.0 Td (Tech stack: Next.js 16, React 19, TypeScript, Tailwind CSS v4, Framer Motion.) Tj ET
+0.85 0.85 0.88 rg 56.0 600.5 500.0 0.8 re f
+0.42 0.28 0.85 rg
+BT /F2 14.5 Tf 56.0 571.5 Td (1. How to run the project \(manually\)) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 542.5 Td (You use Windows, so open Command Prompt: press the Windows key, type cmd, press Enter.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 521.0 Td (Then copy-paste these two lines:) Tj ET
+0.95 0.95 0.97 rg 50.0 496.1 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 499.5 Td (cd /d C:\\Users\\vy355\\.claude\\vishal-portfolio) Tj ET
+0.95 0.95 0.97 rg 50.0 483.7 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 487.1 Td (npm run dev) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 463.7 Td (Wait until it prints "Local: http://localhost:3000", then open that address in your browser.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 442.2 Td (To STOP the server: click the black cmd window and press Ctrl + C.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 420.7 Td (First time on a new computer \(or if you see "module not found"\), run this once first:) Tj ET
+0.95 0.95 0.97 rg 50.0 395.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 399.2 Td (cd /d C:\\Users\\vy355\\.claude\\vishal-portfolio) Tj ET
+0.95 0.95 0.97 rg 50.0 383.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 386.8 Td (npm install) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 363.4 Td (Easiest alternative - VS Code:) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 348.9 Td (-  Open VS Code, File menu, Open Folder, choose the vishal-portfolio folder.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 334.4 Td (-  Open the terminal with Ctrl + backtick \(the key above Tab\).) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 319.9 Td (-  Type: npm run dev) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 305.4 Td (-  Ctrl+click the http://localhost:3000 link.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 283.9 Td (Common mistakes:) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 269.4 Td (-  Running "cd vishal-portfolio" from C:/Users/vy355 fails. The project is INSIDE the) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 254.9 Td (   .claude folder, so always use the full path above.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 240.4 Td (-  Do not paste any "# http://..." comment text. cmd does not understand the # symbol.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 225.9 Td (-  If port 3000 is busy it will use 3001 - just open whatever URL it prints.) Tj ET
+0.85 0.85 0.88 rg 56.0 198.4 500.0 0.8 re f
+0.42 0.28 0.85 rg
+BT /F2 14.5 Tf 56.0 169.4 Td (2. Project structure \(where everything lives\)) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 140.4 Td (You will mostly touch the files inside the src folder.) Tj ET
+0.95 0.95 0.97 rg 50.0 115.5 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 118.9 Td (vishal-portfolio/) Tj ET
+0.95 0.95 0.97 rg 50.0 103.1 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 106.5 Td (public/                      images and the resume file) Tj ET
+0.95 0.95 0.97 rg 50.0 90.7 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 94.1 Td (resume.pdf                 the downloadable resume) Tj ET
+0.95 0.95 0.97 rg 50.0 78.3 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 81.7 Td (images/profile.jpg         your photo \(optional, drop it in\)) Tj ET
+0.95 0.95 0.97 rg 50.0 65.9 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 69.3 Td (images/projects/           project cover images \(optional\)) Tj ET
+endstream
+endobj
+7 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Resources<</Font<</F1 3 0 R/F2 4 0 R/F3 5 0 R>>>>/Contents 6 0 R>>
+endobj
+8 0 obj
+<</Length 4797>>
+stream
+0.95 0.95 0.97 rg 50.0 748.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 752.0 Td (src/) Tj ET
+0.95 0.95 0.97 rg 50.0 736.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 739.6 Td (lib/) Tj ET
+0.95 0.95 0.97 rg 50.0 723.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 727.2 Td (site.ts                  name, email, phone, social links) Tj ET
+0.95 0.95 0.97 rg 50.0 711.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 714.8 Td (data/projects.ts         all projects) Tj ET
+0.95 0.95 0.97 rg 50.0 699.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 702.4 Td (data/skills.ts           all skills) Tj ET
+0.95 0.95 0.97 rg 50.0 686.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 690.0 Td (data/certifications.ts   all certifications) Tj ET
+0.95 0.95 0.97 rg 50.0 674.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 677.6 Td (app/) Tj ET
+0.95 0.95 0.97 rg 50.0 661.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 665.2 Td (page.tsx                 home page) Tj ET
+0.95 0.95 0.97 rg 50.0 649.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 652.8 Td (about/page.tsx           About page \(education, experience\)) Tj ET
+0.95 0.95 0.97 rg 50.0 637.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 640.4 Td (projects/page.tsx        projects listing) Tj ET
+0.95 0.95 0.97 rg 50.0 624.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 628.0 Td (skills/page.tsx          skills page) Tj ET
+0.95 0.95 0.97 rg 50.0 612.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 615.6 Td (certifications/page.tsx  certifications page) Tj ET
+0.95 0.95 0.97 rg 50.0 599.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 603.2 Td (contact/page.tsx         contact page) Tj ET
+0.95 0.95 0.97 rg 50.0 587.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 590.8 Td (components/                reusable building blocks) Tj ET
+0.95 0.95 0.97 rg 50.0 575.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 578.4 Td (home/stats.tsx           the 4 stat numbers on the home page) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 555.0 Td (Rule of thumb: to change WORDS and DATA, edit the files in src/lib. To change LAYOUT,) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 540.5 Td (edit the files in src/app and src/components.) Tj ET
+0.85 0.85 0.88 rg 56.0 513.0 500.0 0.8 re f
+0.42 0.28 0.85 rg
+BT /F2 14.5 Tf 56.0 484.0 Td (3. The golden rule for editing) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 455.0 Td (1. Open the file in a text editor \(Notepad works, VS Code is better\).) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 440.5 Td (2. Change the text inside the quotation marks " ".) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 426.0 Td (3. Keep all commas, brackets [ ], and braces { } exactly where they are.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 411.5 Td (4. Save the file. If "npm run dev" is running, the browser updates automatically.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 390.0 Td (If the page goes blank after an edit, you probably deleted a comma or a bracket.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 375.5 Td (Undo with Ctrl + Z and save again.) Tj ET
+0.85 0.85 0.88 rg 56.0 348.0 500.0 0.8 re f
+0.42 0.28 0.85 rg
+BT /F2 14.5 Tf 56.0 319.0 Td (4. How to update each section \(no coding\)) Tj ET
+0.12 0.12 0.14 rg
+BT /F2 11.5 Tf 56.0 282.0 Td (4.1 Name, email, phone, social links, resume name) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 258.0 Td (File: src/lib/site.ts) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 236.5 Td (Change the values inside the quotes:) Tj ET
+0.95 0.95 0.97 rg 50.0 211.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 215.0 Td (name: "Vishal Yadav",) Tj ET
+0.95 0.95 0.97 rg 50.0 199.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 202.6 Td (email: "vishalyadav.analytics@gmail.com",) Tj ET
+0.95 0.95 0.97 rg 50.0 186.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 190.2 Td (phone: "+91 9619039381",) Tj ET
+0.95 0.95 0.97 rg 50.0 174.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 177.8 Td (resumeFileName: "Vishal_Yadav_Resume.pdf",) Tj ET
+0.95 0.95 0.97 rg 50.0 162.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 165.4 Td (links: {) Tj ET
+0.95 0.95 0.97 rg 50.0 149.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 153.0 Td (github: "https://github.com/Vishal123-tech",) Tj ET
+0.95 0.95 0.97 rg 50.0 137.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 140.6 Td (linkedin: "https://www.linkedin.com/in/vishal-yadav-339b9b1b5",) Tj ET
+0.95 0.95 0.97 rg 50.0 124.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 128.2 Td (kaggle: "https://www.kaggle.com/vishalinsightx",) Tj ET
+0.95 0.95 0.97 rg 50.0 112.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 115.8 Td (},) Tj ET
+0.12 0.12 0.14 rg
+BT /F2 11.5 Tf 56.0 84.4 Td (4.2 Projects \(add / edit / remove\)) Tj ET
+endstream
+endobj
+9 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Resources<</Font<</F1 3 0 R/F2 4 0 R/F3 5 0 R>>>>/Contents 8 0 R>>
+endobj
+10 0 obj
+<</Length 5498>>
+stream
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 752.0 Td (File: src/lib/data/projects.ts) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 730.5 Td (Each project is a block between { and }. To EDIT one, change the text in quotes.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 716.0 Td (To ADD a new project, copy an entire existing block \(from { to },\) and paste it,) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 701.5 Td (then change the values. To REMOVE one, delete its whole block.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 680.0 Td (Field meanings:) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 658.5 Td (-  slug: the web address part, lowercase-with-dashes, must be unique.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 644.0 Td (-  title: project name shown everywhere.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 629.5 Td (-  tagline: one-line summary on the card.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 615.0 Td (-  category: must be one of "Data Analysis", "Machine Learning", "Dashboard", "SQL".) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 600.5 Td (-  year: e.g. "2026".) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 586.0 Td (-  featured: true shows it on the home page, false hides it from home.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 571.5 Td (-  tech: the technology tags, e.g. ["Python", "SQL", "Power BI"].) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 557.0 Td (-  illustration: which built-in graphic to show. One of "ml", "sql", "powerbi",) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 542.5 Td (   "dashboard".) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 528.0 Td (-  githubUrl: the "View code" button link.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 513.5 Td (-  overview, features, challenges, results, resultNarrative, architecture, screenshots:) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 499.0 Td (the content shown on the project detail page.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 477.5 Td (Minimal new-project template:) Tj ET
+0.95 0.95 0.97 rg 50.0 452.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 456.0 Td ({) Tj ET
+0.95 0.95 0.97 rg 50.0 440.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 443.6 Td (slug: "my-new-project",) Tj ET
+0.95 0.95 0.97 rg 50.0 427.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 431.2 Td (title: "My New Project",) Tj ET
+0.95 0.95 0.97 rg 50.0 415.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 418.8 Td (tagline: "One line about it.",) Tj ET
+0.95 0.95 0.97 rg 50.0 403.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 406.4 Td (category: "Machine Learning",) Tj ET
+0.95 0.95 0.97 rg 50.0 390.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 394.0 Td (year: "2026",) Tj ET
+0.95 0.95 0.97 rg 50.0 378.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 381.6 Td (featured: true,) Tj ET
+0.95 0.95 0.97 rg 50.0 365.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 369.2 Td (tech: ["Python", "Pandas"],) Tj ET
+0.95 0.95 0.97 rg 50.0 353.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 356.8 Td (illustration: "ml",) Tj ET
+0.95 0.95 0.97 rg 50.0 341.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 344.4 Td (githubUrl: "https://github.com/Vishal123-tech/my-new-project",) Tj ET
+0.95 0.95 0.97 rg 50.0 328.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 332.0 Td (overview: "A longer paragraph describing the project.",) Tj ET
+0.95 0.95 0.97 rg 50.0 316.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 319.6 Td (features: ["First feature", "Second feature"],) Tj ET
+0.95 0.95 0.97 rg 50.0 303.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 307.2 Td (challenges: ["A challenge you solved"],) Tj ET
+0.95 0.95 0.97 rg 50.0 291.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 294.8 Td (results: [) Tj ET
+0.95 0.95 0.97 rg 50.0 279.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 282.4 Td ({ label: "Accuracy", value: 90, suffix: "%" },) Tj ET
+0.95 0.95 0.97 rg 50.0 266.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 270.0 Td ({ label: "Records", value: 5000, suffix: "+" }) Tj ET
+0.95 0.95 0.97 rg 50.0 254.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 257.6 Td (],) Tj ET
+0.95 0.95 0.97 rg 50.0 241.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 245.2 Td (resultNarrative: "What the outcome was.",) Tj ET
+0.95 0.95 0.97 rg 50.0 229.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 232.8 Td (architecture: [) Tj ET
+0.95 0.95 0.97 rg 50.0 217.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 220.4 Td ({ step: "Collect", detail: "Gather data" },) Tj ET
+0.95 0.95 0.97 rg 50.0 204.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 208.0 Td ({ step: "Model", detail: "Train the model" }) Tj ET
+0.95 0.95 0.97 rg 50.0 192.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 195.6 Td (],) Tj ET
+0.95 0.95 0.97 rg 50.0 179.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 183.2 Td (screenshots: [{ caption: "Result chart" }]) Tj ET
+0.95 0.95 0.97 rg 50.0 167.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 170.8 Td (},) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 147.4 Td (If you add an image cover, put the file in public/images/projects/ and add this line) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 132.9 Td (inside the project: cover: "/images/projects/your-file.png".) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 111.4 Td (Note about the category filter: clicking a category on the Projects page shows only) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 96.9 Td (projects whose category matches. "All" shows everything.) Tj ET
+endstream
+endobj
+11 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Resources<</Font<</F1 3 0 R/F2 4 0 R/F3 5 0 R>>>>/Contents 10 0 R>>
+endobj
+12 0 obj
+<</Length 4104>>
+stream
+0.12 0.12 0.14 rg
+BT /F2 11.5 Tf 56.0 744.0 Td (4.3 Skills) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 720.0 Td (File: src/lib/data/skills.ts) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 698.5 Td (Skills are grouped. Inside each group, the skills list looks like:) Tj ET
+0.95 0.95 0.97 rg 50.0 673.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 677.0 Td ({ name: "Python", level: 90 },) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 653.6 Td (level is 0 to 100 and controls the length of the colored bar. Add or remove lines,) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 639.1 Td (keeping the same format and the comma at the end.) Tj ET
+0.12 0.12 0.14 rg
+BT /F2 11.5 Tf 56.0 609.6 Td (4.4 Certifications) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 585.6 Td (File: src/lib/data/certifications.ts) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 564.1 Td (Each certification block:) Tj ET
+0.95 0.95 0.97 rg 50.0 539.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 542.6 Td ({) Tj ET
+0.95 0.95 0.97 rg 50.0 526.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 530.2 Td (title: "Machine Learning for Data Science Projects",) Tj ET
+0.95 0.95 0.97 rg 50.0 514.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 517.8 Td (issuer: "IBM SkillsBuild",) Tj ET
+0.95 0.95 0.97 rg 50.0 502.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 505.4 Td (date: "Mar 2026",) Tj ET
+0.95 0.95 0.97 rg 50.0 489.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 493.0 Td (sortKey: 202606,) Tj ET
+0.95 0.95 0.97 rg 50.0 477.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 480.6 Td (skills: ["Machine Learning", "Python"],) Tj ET
+0.95 0.95 0.97 rg 50.0 464.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 468.2 Td (},) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 444.8 Td (issuer must be one of "IBM SkillsBuild", "Google", "Deloitte" \(to add a new issuer,) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 430.3 Td (ask an AI or developer to extend the allowed list and its color\).) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 415.8 Td (sortKey orders the timeline - bigger number = shown higher \(use YYYYMM, e.g. Mar 2026 =) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 401.3 Td (202603\).) Tj ET
+0.12 0.12 0.14 rg
+BT /F2 11.5 Tf 56.0 371.8 Td (4.5 About page \(education, experience, objective\)) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 347.8 Td (File: src/app/about/page.tsx) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 326.3 Td (-  education: the school/college list \(newest first\).) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 311.8 Td (-  journey: the experience and milestone timeline.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 297.3 Td (-  The career-objective paragraph and the location text are also in this file -) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 282.8 Td (search for the words to find them.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 261.3 Td (Education entry format:) Tj ET
+0.95 0.95 0.97 rg 50.0 236.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 239.8 Td ({) Tj ET
+0.95 0.95 0.97 rg 50.0 224.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 227.4 Td (period: "Mar 2023 - May 2027",) Tj ET
+0.95 0.95 0.97 rg 50.0 211.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 215.0 Td (title: "B.E. - Electrical, Electronics & Communications Engineering",) Tj ET
+0.95 0.95 0.97 rg 50.0 199.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 202.6 Td (subtitle: "Shree L. R. Tiwari College of Engineering, Mumbai",) Tj ET
+0.95 0.95 0.97 rg 50.0 186.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 190.2 Td (description: "Optional extra line.",) Tj ET
+0.95 0.95 0.97 rg 50.0 174.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 177.8 Td (},) Tj ET
+0.12 0.12 0.14 rg
+BT /F2 11.5 Tf 56.0 146.4 Td (4.6 Home page stat numbers) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 122.4 Td (File: src/components/home/stats.tsx) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 100.9 Td (The 4 big numbers near the top. Each one:) Tj ET
+0.95 0.95 0.97 rg 50.0 76.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 79.4 Td ({ label: "Featured projects", to: 2 },) Tj ET
+endstream
+endobj
+13 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Resources<</Font<</F1 3 0 R/F2 4 0 R/F3 5 0 R>>>>/Contents 12 0 R>>
+endobj
+14 0 obj
+<</Length 3564>>
+stream
+0.95 0.95 0.97 rg 50.0 748.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 752.0 Td ({ label: "Technologies & tools", to: 20, suffix: "+" },) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 728.6 Td (to is the number it counts up to. suffix adds text like "+" or "%".) Tj ET
+0.12 0.12 0.14 rg
+BT /F2 11.5 Tf 56.0 699.1 Td (4.7 Replace the resume file) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 675.1 Td (Put your latest PDF at public/resume.pdf \(overwrite the existing file\). Keep the) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 660.6 Td (name exactly "resume.pdf". Every Download Resume button uses it automatically.) Tj ET
+0.12 0.12 0.14 rg
+BT /F2 11.5 Tf 56.0 631.1 Td (4.8 Add your photo) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 607.1 Td (Save a square photo as public/images/profile.jpg. It appears on the About page) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 592.6 Td (automatically. If absent, a placeholder shows.) Tj ET
+0.85 0.85 0.88 rg 56.0 565.1 500.0 0.8 re f
+0.42 0.28 0.85 rg
+BT /F2 14.5 Tf 56.0 536.1 Td (5. See your changes / check it still works) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 507.1 Td (-  While "npm run dev" is running, saving a file refreshes the browser instantly.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 492.6 Td (-  To confirm everything is healthy before publishing, run:) Tj ET
+0.95 0.95 0.97 rg 50.0 467.7 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 471.1 Td (npm run build) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 447.7 Td (If it ends without "Failed", you are good. If it shows an error, read the file name) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 433.2 Td (and line number it mentions, undo your last edit, and try again.) Tj ET
+0.85 0.85 0.88 rg 56.0 405.7 500.0 0.8 re f
+0.42 0.28 0.85 rg
+BT /F2 14.5 Tf 56.0 376.7 Td (6. Save your changes to GitHub) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 347.7 Td (The GitHub remote is already set up. After editing, run:) Tj ET
+0.95 0.95 0.97 rg 50.0 322.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 326.2 Td (cd /d C:\\Users\\vy355\\.claude\\vishal-portfolio) Tj ET
+0.95 0.95 0.97 rg 50.0 310.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 313.8 Td (git add -A) Tj ET
+0.95 0.95 0.97 rg 50.0 298.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 301.4 Td (git commit -m "Update content") Tj ET
+0.95 0.95 0.97 rg 50.0 285.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 289.0 Td (git push) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 265.6 Td (The first push opens a browser window to log in to GitHub - approve it once.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 244.1 Td (If the repository does not exist yet, create an empty one named vishal-portfolio at) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 229.6 Td (https://github.com/new \(owner Vishal123-tech, do not add a README\), then push.) Tj ET
+0.85 0.85 0.88 rg 56.0 202.1 500.0 0.8 re f
+0.42 0.28 0.85 rg
+BT /F2 14.5 Tf 56.0 173.1 Td (7. Put it online \(Vercel\)) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 144.1 Td (1. Go to https://vercel.com/new and import the vishal-portfolio GitHub repo.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 129.6 Td (2. Click Deploy. No settings needed.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 115.1 Td (3. After it is live, open src/lib/site.ts and set url to your real address, e.g.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 100.6 Td (url: "https://vishal-yadav.vercel.app", then commit and push again.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 79.1 Td (Or from the folder: npm i -g vercel, then vercel --prod.) Tj ET
+endstream
+endobj
+15 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Resources<</Font<</F1 3 0 R/F2 4 0 R/F3 5 0 R>>>>/Contents 14 0 R>>
+endobj
+16 0 obj
+<</Length 4767>>
+stream
+0.85 0.85 0.88 rg 56.0 746.0 500.0 0.8 re f
+0.42 0.28 0.85 rg
+BT /F2 14.5 Tf 56.0 717.0 Td (8. Updating with an AI assistant \(new Claude session, ChatGPT,) Tj ET
+0.42 0.28 0.85 rg
+BT /F2 14.5 Tf 56.0 697.0 Td (Gemini\)) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 668.0 Td (You can use any AI to make changes. Do this:) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 646.5 Td (1. Open the project folder so you can see the files.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 632.0 Td (2. Tell the AI which file you want changed \(see Section 2 and 4 for the file\).) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 617.5 Td (3. Paste the current contents of that file, and this important note:) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 596.0 Td (IMPORTANT: This project uses Next.js 16 and Tailwind CSS v4 \(newer than most) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 581.5 Td (training data\). Only change the data/text I ask for. Keep all commas and brackets) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 567.0 Td (valid. Do not change the build setup.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 545.5 Td (Ready-to-paste prompt template:) Tj ET
+0.95 0.95 0.97 rg 50.0 520.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 524.0 Td (I have a Next.js 16 + TypeScript portfolio. I want to [describe your change,) Tj ET
+0.95 0.95 0.97 rg 50.0 508.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 511.6 Td (e.g. "add a new project called X"]. The relevant file is src/lib/data/projects.ts.) Tj ET
+0.95 0.95 0.97 rg 50.0 495.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 499.2 Td (Here are its current contents:) Tj ET
+0.95 0.95 0.97 rg 50.0 483.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 486.8 Td ( ) Tj ET
+0.95 0.95 0.97 rg 50.0 471.0 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 474.4 Td ([paste the file here]) Tj ET
+0.95 0.95 0.97 rg 50.0 458.6 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 462.0 Td ( ) Tj ET
+0.95 0.95 0.97 rg 50.0 446.2 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 449.6 Td (Please give me the full updated file. Keep the existing format, commas, and) Tj ET
+0.95 0.95 0.97 rg 50.0 433.8 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 437.2 Td (brackets) Tj ET
+0.95 0.95 0.97 rg 50.0 421.4 512.0 12.4 re f
+0.13 0.13 0.16 rg
+BT /F3 9 Tf 56.0 424.8 Td (valid. Do not change anything else.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 401.4 Td (4. Copy the AI's updated code back into the file, save, and run npm run dev to check.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 379.9 Td (Tip: Claude Code \(the tool that built this\) can open the whole folder and edit files) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 365.4 Td (directly - that is the smoothest option. ChatGPT/Gemini work too, but you copy-paste) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 350.9 Td (files in and out by hand.) Tj ET
+0.85 0.85 0.88 rg 56.0 323.4 500.0 0.8 re f
+0.42 0.28 0.85 rg
+BT /F2 14.5 Tf 56.0 294.4 Td (9. Notes for a full-stack developer) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 265.4 Td (-  Framework: Next.js 16 \(App Router, Turbopack\), React 19, TypeScript strict mode.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 250.9 Td (-  Styling: Tailwind CSS v4. Design tokens and custom utilities are in) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 236.4 Td (src/app/globals.css \(CSS variables for both themes, .gradient-text, .bg-grid,) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 221.9 Td (.glass, etc.\). Dark mode is class-based via next-themes.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 207.4 Td (-  UI primitives: hand-rolled shadcn-style components in src/components/ui) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 192.9 Td (\(button, card, badge, input, textarea\) using class-variance-authority.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 178.4 Td (-  Animations: Framer Motion. Note ease arrays must be typed as Variants or the) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 163.9 Td (build fails \(TS\), and brand icons are custom SVGs in src/components/icons.tsx) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 149.4 Td (because lucide-react removed its brand icons in this version.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 134.9 Td (-  Content is fully data-driven: src/lib/site.ts and src/lib/data/*. Pages map over) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 120.4 Td (that data, so adding items rarely needs component changes.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 105.9 Td (-  SEO: metadata in app/layout.tsx and per page; app/sitemap.ts, app/robots.ts, and) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 91.4 Td (a dynamic OG image at app/opengraph-image.tsx.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 76.9 Td (-  Scripts: npm run dev, npm run build, npm start, npm run lint.) Tj ET
+endstream
+endobj
+17 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Resources<</Font<</F1 3 0 R/F2 4 0 R/F3 5 0 R>>>>/Contents 16 0 R>>
+endobj
+18 0 obj
+<</Length 1660>>
+stream
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 752.0 Td (-  Project detail uses generateStaticParams + generateMetadata \(params is a Promise -) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 737.5 Td (await it\). All routes are static/SSG.) Tj ET
+0.85 0.85 0.88 rg 56.0 710.0 500.0 0.8 re f
+0.42 0.28 0.85 rg
+BT /F2 14.5 Tf 56.0 681.0 Td (10. Troubleshooting / FAQ) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 652.0 Td (-  "The system cannot find the path specified" -> you are not in the project folder.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 637.5 Td (Use: cd /d C:\\Users\\vy355\\.claude\\vishal-portfolio) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 623.0 Td (-  "module not found" / "next is not recognized" -> run npm install once.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 608.5 Td (-  Page is blank or build fails after an edit -> you removed a comma or bracket.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 594.0 Td (Undo with Ctrl + Z, save, try again.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 579.5 Td (-  Port 3000 busy -> Next.js uses 3001 automatically; open that URL.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 565.0 Td (-  Resume downloads as resume\(1\).pdf -> harmless browser behavior when the file) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 550.5 Td (already exists in Downloads; the name is set to Vishal_Yadav_Resume.pdf.) Tj ET
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 64.0 536.0 Td (-  Changes not showing -> hard refresh the browser with Ctrl + Shift + R.) Tj ET
+0.85 0.85 0.88 rg 56.0 508.5 500.0 0.8 re f
+0.12 0.12 0.14 rg
+BT /F1 10.5 Tf 56.0 491.5 Td (Made for Vishal Yadav. Keep this file in the project folder for reference.) Tj ET
+endstream
+endobj
+19 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Resources<</Font<</F1 3 0 R/F2 4 0 R/F3 5 0 R>>>>/Contents 18 0 R>>
+endobj
+xref
+0 20
+0000000000 65535 f 
+0000000009 00000 n 
+0000000054 00000 n 
+0000000146 00000 n 
+0000000209 00000 n 
+0000000277 00000 n 
+0000000338 00000 n 
+0000004434 00000 n 
+0000004564 00000 n 
+0000009410 00000 n 
+0000009540 00000 n 
+0000015088 00000 n 
+0000015220 00000 n 
+0000019374 00000 n 
+0000019506 00000 n 
+0000023120 00000 n 
+0000023252 00000 n 
+0000028069 00000 n 
+0000028201 00000 n 
+0000029911 00000 n 
+trailer
+<</Size 20/Root 1 0 R>>
+startxref
+30043
+%%EOF

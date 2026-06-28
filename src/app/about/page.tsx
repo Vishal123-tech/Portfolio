@@ -46,11 +46,24 @@ const journey: TimelineItem[] = [
 
 const education: TimelineItem[] = [
   {
-    period: "2023 — 2027",
-    title: "B.Tech, Electronics & Telecommunication Engineering",
-    subtitle: "Shree L R Tiwari College of Engineering, Mumbai",
+    period: "Mar 2023 — May 2027",
+    title: "B.E. — Electrical, Electronics & Communications Engineering",
+    subtitle: "Shree L. R. Tiwari College of Engineering, Mumbai",
     description:
       "Final-year project: a Retail Customer Analytics system using Python, SQL and Power BI to analyse customer behaviour and build interactive dashboards.",
+    tags: ["Python", "SQL", "Power BI"],
+  },
+  {
+    period: "Jun 2020 — May 2022",
+    title: "Class XII — Science (HSC)",
+    subtitle: "Shri T. P. Bhatia Junior College of Science",
+    description: "Higher Secondary Certificate in the Science stream.",
+  },
+  {
+    period: "Jun 2019 — May 2020",
+    title: "Class X (SSC)",
+    subtitle: "Sardar Vallabhbhai Patel Vividhlaxi Vidhyalaya (SVPVV)",
+    description: "Secondary School Certificate.",
   },
 ];
 
@@ -77,7 +90,7 @@ export default function AboutPage() {
                 <MapPin className="size-4" /> Mumbai, India · Open to opportunities
               </div>
               <Button asChild variant="gradient" className="mt-4 w-full">
-                <a href={siteConfig.resumeUrl} download>
+                <a href={siteConfig.resumeUrl} download={siteConfig.resumeFileName}>
                   <Download className="size-4" /> Download Resume
                 </a>
               </Button>

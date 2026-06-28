@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Mail, Phone, Download, ArrowUpRight } from "lucide-react";
 import { siteConfig } from "@/lib/site";
-import { GithubIcon, LinkedinIcon } from "@/components/icons";
+import { GithubIcon, LinkedinIcon, KaggleIcon } from "@/components/icons";
 import { PageHeader } from "@/components/shared/page-header";
 import { Section } from "@/components/shared/section";
 import { Reveal } from "@/components/shared/reveal";
@@ -18,6 +18,7 @@ const channels = [
   { label: "Phone", value: siteConfig.phone, href: `tel:${siteConfig.phone.replace(/\s/g, "")}`, icon: Phone },
   { label: "GitHub", value: "Vishal123-tech", href: siteConfig.links.github, icon: GithubIcon },
   { label: "LinkedIn", value: "vishal-yadav", href: siteConfig.links.linkedin, icon: LinkedinIcon },
+  { label: "Kaggle", value: "vishalinsightx", href: siteConfig.links.kaggle, icon: KaggleIcon },
 ];
 
 export default function ContactPage() {
@@ -66,7 +67,7 @@ export default function ContactPage() {
                 </p>
                 <a
                   href={siteConfig.resumeUrl}
-                  download
+                  download={siteConfig.resumeFileName}
                   className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-brand-violet"
                 >
                   <Download className="size-4" /> Download Resume (PDF)

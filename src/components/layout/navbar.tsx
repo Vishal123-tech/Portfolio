@@ -64,7 +64,7 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <ThemeToggle />
           <Button asChild variant="gradient" size="sm" className="hidden md:inline-flex">
-            <a href={siteConfig.resumeUrl} download>
+            <a href={siteConfig.resumeUrl} download={siteConfig.resumeFileName}>
               <Download className="size-4" />
               Resume
             </a>
@@ -110,7 +110,7 @@ export function Navbar() {
               ))}
               <li className="mt-2">
                 <Button asChild variant="gradient" className="w-full">
-                  <a href={siteConfig.resumeUrl} download>
+                  <a href={siteConfig.resumeUrl} download={siteConfig.resumeFileName}>
                     <Download className="size-4" />
                     Download Resume
                   </a>

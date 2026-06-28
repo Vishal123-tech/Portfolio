@@ -86,7 +86,7 @@ export function Hero() {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <a href={siteConfig.resumeUrl} download>
+              <a href={siteConfig.resumeUrl} download={siteConfig.resumeFileName}>
                 <Download className="size-4" />
                 Download Resume
               </a>

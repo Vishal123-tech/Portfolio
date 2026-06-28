@@ -21,8 +21,8 @@ export function Logo({ className }: { className?: string }) {
           />
         </svg>
       </span>
-      <span className="font-mono text-sm font-semibold tracking-tight">
-        vishal<span className="text-muted-foreground">.yadav</span>
+      <span className="gradient-text text-base font-semibold tracking-tight">
+        Vishal Yadav
       </span>
     </Link>
   );

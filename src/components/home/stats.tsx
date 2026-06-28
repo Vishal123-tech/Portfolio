@@ -1,10 +1,10 @@
 import { Counter } from "@/components/shared/counter";
 import { Reveal } from "@/components/shared/reveal";
 
-const stats = [
-  { label: "End-to-end projects", to: 5, suffix: "+" },
-  { label: "Best model accuracy", to: 90.07, decimals: 2, suffix: "%" },
-  { label: "Job records analysed", to: 9000, suffix: "+" },
+const stats: { label: string; to: number; suffix?: string; decimals?: number }[] = [
+  { label: "Featured projects", to: 2 },
+  { label: "Technologies & tools", to: 20, suffix: "+" },
+  { label: "ML models trained", to: 10, suffix: "+" },
   { label: "Industry certifications", to: 5 },
 ];
 
