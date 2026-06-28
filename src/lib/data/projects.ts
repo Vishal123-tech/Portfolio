@@ -35,7 +35,7 @@ export const projects: Project[] = [
   {
     slug: "ai-jobs-layoff-risk",
     title: "AI Impact on Jobs & Layoff Risk Analysis",
-    tagline: "EDA on 9,000+ job records quantifying AI automation exposure and layoff risk.",
+    tagline: "EDA on 20,000 employee records quantifying AI automation exposure and layoff risk.",
     category: "Machine Learning",
     year: "2025",
     featured: true,
@@ -43,9 +43,9 @@ export const projects: Project[] = [
     illustration: "sql",
     githubUrl: "https://github.com/Vishal123-tech/AI-Impact-on-Jobs-and-Layoff-Risk-Dataset",
     overview:
-      "A data-analysis project that curates and explores 9,000+ job records across 15+ industries to quantify AI automation exposure and layoff risk by role, sector and geography. The output is a structured, reproducible dataset and analysis notebook published as an open resource.",
+      "A data-analysis project that curates and explores 20,000 employee records across 15+ industries to quantify AI automation exposure and layoff risk by role, sector and geography. The output is a structured, reproducible dataset and analysis notebook published as an open resource.",
     features: [
-      "Curated & analysed 9,000+ job records across 15+ industries",
+      "Curated & analysed 20,000 employee records across 15+ industries",
       "AI automation exposure scoring by role, sector & geography",
       "Engineered risk-tier classification & industry vulnerability index",
       "In-depth EDA with Seaborn & Matplotlib visualizations",
@@ -57,7 +57,7 @@ export const projects: Project[] = [
       "Communicating risk in a stakeholder-ready, visual way.",
     ],
     results: [
-      { label: "Job records analysed", value: 9000, suffix: "+" },
+      { label: "Employee records analysed", value: 20000 },
       { label: "Industries covered", value: 15, suffix: "+" },
       { label: "Highest-risk sectors", value: 3 },
       { label: "Derived risk features", value: 2, suffix: "+" },
@@ -65,7 +65,7 @@ export const projects: Project[] = [
     resultNarrative:
       "The analysis revealed that IT, Finance and Manufacturing roles face the highest displacement risk. The published dataset and notebook now serve as an open resource for workforce-strategy and AI-policy research.",
     architecture: [
-      { step: "Collect", detail: "Curate 9,000+ job records" },
+      { step: "Collect", detail: "Curate 20,000 employee records" },
       { step: "Clean", detail: "Normalise across 15+ industries" },
       { step: "Analyse", detail: "EDA + exposure & risk scoring" },
       { step: "Publish", detail: "Open dataset + notebook" },
