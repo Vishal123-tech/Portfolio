@@ -120,6 +120,50 @@ export const projects: Project[] = [
       { caption: "Power BI segment dashboard" },
     ],
   },
+  {
+    slug: "diabetes-classification",
+    title: "Diabetes Classification Pipeline",
+    tagline: "LightGBM + Optuna classification reaching 90.07% accuracy with SHAP explainability.",
+    category: "Machine Learning",
+    year: "2026",
+    featured: true,
+    tech: ["Python", "LightGBM", "Optuna", "Scikit-learn", "SHAP"],
+    illustration: "ml",
+    githubUrl: "https://github.com/Vishal123-tech/Diabetes-Classification-ML",
+    overview:
+      "An end-to-end binary classification pipeline that predicts diabetes risk. The workflow covers preprocessing, feature engineering, LightGBM modelling, Optuna hyperparameter tuning and SHAP interpretability — pushing accuracy roughly 14 percentage points above the baseline.",
+    features: [
+      "End-to-end pipeline: preprocessing → model → evaluation",
+      "Feature engineering to boost signal",
+      "LightGBM model tuned with Optuna",
+      "Cross-validated model selection to avoid overfitting",
+      "SHAP interpretability for per-feature impact",
+    ],
+    challenges: [
+      "Lifting accuracy ~14 pp above the baseline model.",
+      "Preventing overfitting during aggressive hyperparameter search.",
+      "Making the model's decisions explainable with SHAP.",
+    ],
+    results: [
+      { label: "Model accuracy", value: 90.07, suffix: "%" },
+      { label: "Uplift vs baseline", value: 14, prefix: "+", suffix: " pp" },
+      { label: "Cross-validation folds", value: 5 },
+      { label: "Optuna trials", value: 50, suffix: "+" },
+    ],
+    resultNarrative:
+      "Engineering the right features and tuning LightGBM with Optuna delivered 90.07% accuracy — about a 14 percentage-point improvement over the baseline — with SHAP confirming which features drove predictions.",
+    architecture: [
+      { step: "Preprocess", detail: "Clean & encode the dataset" },
+      { step: "Engineer", detail: "Derive predictive features" },
+      { step: "Tune", detail: "LightGBM + Optuna, CV-validated" },
+      { step: "Explain", detail: "SHAP feature attribution" },
+    ],
+    screenshots: [
+      { caption: "Confusion matrix & metrics" },
+      { caption: "Optuna optimization history" },
+      { caption: "SHAP summary plot" },
+    ],
+  },
 ];
 
 export const projectCategories: ("All" | ProjectCategory)[] = [
