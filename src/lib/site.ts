@@ -7,8 +7,8 @@ export const siteConfig = {
   location: "Mumbai, Maharashtra, India",
   email: "vishalyadav.analytics@gmail.com",
   phone: "+91 9619039381",
-  resumeUrl: "/resume.pdf",
-  resumeFileName: "Vishal_Yadav_Resume.pdf",
+  resumeUrl: "/Vishal%20Yadav%20Resume.pdf",
+  resumeFileName: "Vishal Yadav Resume.pdf",
   links: {
     github: "https://github.com/Vishal123-tech",
     linkedin: "https://www.linkedin.com/in/vishal-yadav-339b9b1b5",
