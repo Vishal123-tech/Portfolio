@@ -67,7 +67,7 @@ export function Footer() {
             download={siteConfig.resumeFileName}
             className="group inline-flex items-center gap-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
-            Download résumé
+            Download Resume
             <ArrowUpRight className="size-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>
