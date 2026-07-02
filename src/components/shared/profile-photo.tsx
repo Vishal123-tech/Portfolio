@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 export function ProfilePhoto({ className }: { className?: string }) {
   const [failed, setFailed] = React.useState(false);
   return (
-    <div className={cn("relative aspect-square w-full overflow-hidden rounded-3xl border border-border bg-muted", className)}>
+    <div className={cn("relative aspect-[4/5] w-full overflow-hidden rounded-3xl border border-border bg-muted", className)}>
       <div className="absolute inset-0 bg-grid opacity-40" aria-hidden />
       <div className="absolute -inset-px rounded-3xl [background:linear-gradient(130deg,var(--brand-blue),var(--brand-violet),var(--brand-cyan))] opacity-20" aria-hidden />
       {!failed ? (
@@ -17,7 +17,7 @@ export function ProfilePhoto({ className }: { className?: string }) {
           alt="Vishal Yadav"
           fill
           sizes="(max-width: 768px) 100vw, 400px"
-          className="relative object-cover"
+          className="relative object-cover object-top"
           onError={() => setFailed(true)}
           priority
         />
