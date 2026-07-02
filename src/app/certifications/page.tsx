@@ -16,6 +16,7 @@ const issuerColor: Record<string, string> = {
   "IBM SkillsBuild": "from-blue-500 to-blue-700",
   Google: "from-emerald-500 to-cyan-500",
   Deloitte: "from-emerald-600 to-teal-500",
+  HackerRank: "from-green-500 to-emerald-600",
 };
 
 export default function CertificationsPage() {

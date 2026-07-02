@@ -1,6 +1,6 @@
 export interface Certification {
   title: string;
-  issuer: "IBM SkillsBuild" | "Google" | "Deloitte";
+  issuer: "IBM SkillsBuild" | "Google" | "Deloitte" | "HackerRank";
   date: string; // human-readable
   sortKey: number; // for ordering, higher = more recent
   credentialUrl?: string;
@@ -8,6 +8,13 @@ export interface Certification {
 }
 
 const items: Certification[] = [
+  {
+    title: "SQL (Advanced, Intermediate & Basic)",
+    issuer: "HackerRank",
+    date: "Apr 2026",
+    sortKey: 202610,
+    skills: ["SQL", "Joins", "Aggregation", "Subqueries"],
+  },
   {
     title: "Machine Learning for Data Science Projects",
     issuer: "IBM SkillsBuild",
