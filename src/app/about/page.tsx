@@ -19,6 +19,22 @@ export const metadata: Metadata = {
 
 const journey: TimelineItem[] = [
   {
+    period: "2025 — 2026",
+    title: "End-to-end Data Science Projects",
+    subtitle: "Layoff-risk analysis · Segmentation · Diabetes · Insurance",
+    description:
+      "Built four end-to-end projects spanning EDA, clustering, classification (90.07% accuracy) and regression, all published on GitHub.",
+    tags: ["Python", "LightGBM", "Power BI"],
+  },
+  {
+    period: "Jun 2026",
+    title: "Introduction to Data Science Job Simulation",
+    subtitle: "Commonwealth Bank (via Forage)",
+    description:
+      "Completed practical tasks in data aggregation and analysis, data anonymisation, proposing data analysis approaches and designing a database.",
+    tags: ["Data Analysis", "Data Anonymisation", "Databases"],
+  },
+  {
     period: "Mar 2026",
     title: "IBM SkillsBuild & Google Certifications",
     subtitle: "ML, Data Classification, AI Fundamentals, Google Analytics",
@@ -27,12 +43,12 @@ const journey: TimelineItem[] = [
     tags: ["IBM SkillsBuild", "Google", "ML"],
   },
   {
-    period: "2025 — 2026",
-    title: "End-to-end Data Science Projects",
-    subtitle: "Layoff-risk analysis · Segmentation · Diabetes · Insurance",
+    period: "",
+    title: "Customer Segmentation & Value Analysis",
+    subtitle: "Clustering · RFM · Customer value",
     description:
-      "Built four end-to-end projects spanning EDA, clustering, classification (90.07% accuracy) and regression, all published on GitHub.",
-    tags: ["Python", "LightGBM", "Power BI"],
+      "Segmented customers by behaviour and spend using clustering and RFM analysis to surface high-value groups and guide targeting.",
+    tags: ["Python", "Clustering", "RFM"],
   },
   {
     period: "Jul 2025",
