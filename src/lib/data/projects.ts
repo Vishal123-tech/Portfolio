@@ -33,6 +33,51 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: "insurance-cost-prediction",
+    title: "Medical Insurance Cost Prediction",
+    tagline: "End-to-end regression pipeline predicting annual medical charges at R² 0.90, served through an interactive Streamlit app.",
+    category: "Machine Learning",
+    year: "2026",
+    featured: true,
+    tech: ["Python", "Scikit-learn", "HistGradientBoosting", "Streamlit", "Pandas"],
+    illustration: "ml",
+    githubUrl: "https://github.com/Vishal123-tech/Medical-Insurance-cost-prediction",
+    overview:
+      "A complete supervised-regression project that predicts an individual's annual medical insurance charge from six demographic and lifestyle features. It spans the full lifecycle — EDA, a scikit-learn preprocessing + model Pipeline, cross-validated comparison of four algorithms, GridSearch tuning of a HistGradientBoosting model, held-out evaluation, model persistence, and a deployed Streamlit app with a live smoker 'what-if' counterfactual.",
+    features: [
+      "Single scikit-learn Pipeline (preprocessing + model) — zero train/serve skew",
+      "Four models compared with 5-fold cross-validation",
+      "HistGradientBoosting tuned via GridSearchCV",
+      "Reached test R² 0.897 (RMSE ≈ $4.4k) on a held-out set",
+      "Permutation importance + smoker counterfactual for interpretability",
+      "Interactive Streamlit app with real-time predictions",
+    ],
+    challenges: [
+      "Linear baselines plateaued at R² ≈ 0.73 — capturing the smoker × BMI interaction needed a tree ensemble.",
+      "Preventing data leakage by fitting all preprocessing inside cross-validation folds.",
+      "Serving raw records safely by bundling preprocessing into the persisted pipeline.",
+    ],
+    results: [
+      { label: "Test R²", value: 0.897 },
+      { label: "Test RMSE", value: 4353, prefix: "$" },
+      { label: "Records modelled", value: 1337 },
+      { label: "Models compared", value: 4 },
+    ],
+    resultNarrative:
+      "Choosing a model family that captures interactions lifted performance from R² ≈ 0.73 (linear) to 0.897 with tuned HistGradientBoosting. Permutation importance confirmed smoking as the dominant cost driver, and the Streamlit app makes that tangible through a real-time smoker counterfactual.",
+    architecture: [
+      { step: "Explore", detail: "EDA on 1,337 records" },
+      { step: "Preprocess", detail: "Scale + one-hot in a Pipeline" },
+      { step: "Tune", detail: "4 models, CV + GridSearch" },
+      { step: "Deploy", detail: "Streamlit prediction app" },
+    ],
+    screenshots: [
+      { caption: "Streamlit predictor UI" },
+      { caption: "Predicted vs. actual charges" },
+      { caption: "Permutation feature importance" },
+    ],
+  },
+  {
     slug: "ai-jobs-layoff-risk",
     title: "AI Impact on Jobs & Layoff Risk Analysis",
     tagline: "EDA on 20,000 employee records quantifying AI automation exposure and layoff risk.",
