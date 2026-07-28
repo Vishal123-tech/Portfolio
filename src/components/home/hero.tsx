@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion, type Variants } from "framer-motion";
-import { ArrowRight, Download, Mail, Sparkles } from "lucide-react";
+import { ArrowRight, Download, Mail } from "lucide-react";
 import { siteConfig } from "@/lib/site";
 import { Button } from "@/components/ui/button";
 import { GridBackground, GlowBlobs } from "@/components/shared/grid-background";
@@ -28,16 +28,18 @@ const item: Variants = {
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden">
+    <section id="hero" className="relative overflow-hidden">
       <GridBackground variant="grid" />
-      <GlowBlobs />
+      <div aria-hidden className="pointer-events-none absolute left-1/2 top-24 size-[32rem] -translate-x-1/2 rounded-full border border-border/60" />
+      <div aria-hidden className="pointer-events-none absolute right-[12%] top-48 size-24 rounded-full border border-border" />
+      <div aria-hidden className="pointer-events-none absolute left-[16%] top-[62%] size-20 rounded-full border border-border" />
 
       {/* Floating technology chips (hidden on small screens) */}
       <div aria-hidden className="pointer-events-none absolute inset-0 hidden lg:block">
         {floatTags.map((t) => (
           <motion.span
             key={t.label}
-            className="absolute glass rounded-full px-3 py-1.5 font-mono text-xs text-muted-foreground"
+            className="absolute border-b border-border px-3 py-1.5 font-mono text-xs text-muted-foreground"
             style={{ left: t.x, top: t.y }}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1, y: [0, -12, 0] }}
@@ -52,36 +54,36 @@ export function Hero() {
         ))}
       </div>
 
-      <div className="mx-auto flex max-w-6xl flex-col items-center container-px pb-16 pt-20 text-center md:pt-28">
+      <div className="mx-auto flex min-h-[calc(100vh-4.5rem)] max-w-7xl flex-col items-center justify-center container-px pb-20 pt-20 text-center md:pt-28">
         <motion.div variants={container} initial="hidden" animate="show" className="flex flex-col items-center">
           <motion.div variants={item}>
-            <span className="inline-flex items-center gap-2 rounded-full border border-border bg-muted/40 px-3.5 py-1.5 font-mono text-xs text-muted-foreground">
-              <Sparkles className="size-3.5 text-brand-violet" />
+            <span className="editorial-label inline-flex items-center gap-3 text-muted-foreground">
+              <span className="h-px w-8 bg-muted-foreground" />
               Available for Data Analyst & Data Science roles
+              <span className="h-px w-8 bg-muted-foreground" />
             </span>
           </motion.div>
 
           <motion.h1
             variants={item}
-            className="mt-6 max-w-4xl text-balance text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl"
+            className="mt-7 max-w-5xl text-balance text-6xl leading-[.9] sm:text-7xl md:text-8xl lg:text-[9rem]"
           >
-            <span className="gradient-text">Data Analyst</span>
-            <span className="mx-2 text-muted-foreground/40">|</span>
+            <span className="gradient-text">Vishal</span>
             <br className="hidden sm:block" />
-            <span>Data Science Enthusiast</span>
+            <span>Yadav</span>
           </motion.h1>
 
           <motion.p
             variants={item}
-            className="mt-6 max-w-2xl text-balance text-base text-muted-foreground md:text-lg"
+            className="mt-8 max-w-xl text-balance text-base text-muted-foreground md:text-lg"
           >
             {siteConfig.description}
           </motion.p>
 
           <motion.div variants={item} className="mt-9 flex flex-wrap items-center justify-center gap-3">
-            <Button asChild variant="gradient" size="lg">
+            <Button asChild variant="gradient" size="lg" className="rounded-none uppercase tracking-[0.14em]">
               <Link href="/projects">
-                View Projects
+                Explore my work
                 <ArrowRight className="size-4" />
               </Link>
             </Button>

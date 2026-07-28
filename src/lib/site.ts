@@ -31,10 +31,11 @@ export const siteConfig = {
 export type NavItem = { title: string; href: string };
 
 export const navItems: NavItem[] = [
-  { title: "Home", href: "/" },
-  { title: "About", href: "/about" },
-  { title: "Projects", href: "/projects" },
-  { title: "Skills", href: "/skills" },
-  { title: "Certifications", href: "/certifications" },
-  { title: "Contact", href: "/contact" },
+  { title: "Home", href: "/#hero" },
+  { title: "About", href: "/#about" },
+  { title: "Skills", href: "/#skills" },
+  { title: "Projects", href: "/#featured" },
+  { title: "Experience", href: "/#experience" },
+  { title: "Education", href: "/#education" },
+  { title: "Contact", href: "/#contact" },
 ];

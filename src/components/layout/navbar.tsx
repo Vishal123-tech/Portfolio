@@ -29,11 +29,11 @@ export function Navbar() {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 w-full transition-all duration-300",
-        scrolled ? "glass border-b border-border" : "border-b border-transparent"
+        "sticky top-0 z-50 w-full border-b border-border transition-all duration-300",
+        scrolled ? "glass" : "bg-background/95"
       )}
     >
-      <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between container-px">
+        <nav className="mx-auto flex h-[4.5rem] max-w-7xl items-center justify-between container-px">
         <Logo />
 
         <ul className="hidden items-center gap-1 md:flex">
@@ -42,7 +42,7 @@ export function Navbar() {
               <Link
                 href={item.href}
                 className={cn(
-                  "relative rounded-lg px-3.5 py-2 text-sm font-medium transition-colors",
+                  "relative px-3.5 py-2 text-xs font-medium uppercase tracking-[0.16em] transition-colors",
                   isActive(item.href)
                     ? "text-foreground"
                     : "text-muted-foreground hover:text-foreground"
@@ -51,7 +51,7 @@ export function Navbar() {
                 {isActive(item.href) && (
                   <motion.span
                     layoutId="nav-active"
-                    className="absolute inset-0 -z-10 rounded-lg bg-muted"
+                    className="absolute inset-x-3 bottom-0 -z-10 h-px bg-foreground"
                     transition={{ type: "spring", stiffness: 380, damping: 30 }}
                   />
                 )}
