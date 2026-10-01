@@ -209,6 +209,52 @@ export const projects: Project[] = [
       { caption: "SHAP summary plot" },
     ],
   },
+  {
+    slug: "ai-skin-disease-detection",
+    title: "SkinScanix — AI Skin Disease Detection",
+    tagline: "Educational computer-vision prototype that screens uploaded skin images and generates an explainable PDF report.",
+    category: "Machine Learning",
+    year: "2026",
+    featured: true,
+    tech: ["Python", "Gradio", "TensorFlow Lite", "MobileNetV2", "OpenCV", "ReportLab"],
+    illustration: "ml",
+    liveUrl: "https://ai-skin-disease-detection-system.onrender.com/",
+    githubUrl: "https://github.com/Vishal123-tech/AI-Skin-Disease-Detection-System",
+    overview:
+      "SkinScanix is an educational image-analysis prototype that takes a skin photograph through image-quality checks, skin/non-skin screening, condition classification and downloadable PDF report generation. It combines a Gradio browser interface with server-side TensorFlow Lite models, optional consented feedback collection and a separate Raspberry Pi camera/API workflow.",
+    features: [
+      "Browser upload and supported camera-capture workflow",
+      "Image sharpness and brightness quality checks",
+      "Four-condition SCIN baseline classifier with uncertain/non-skin routing",
+      "TensorFlow Lite / LiteRT inference for compact server-side models",
+      "Branded A4 PDF reports with results, quality information and limitations",
+      "Separate Flask API and Raspberry Pi camera client for experimentation",
+    ],
+    challenges: [
+      "Separating common-condition image classification from the legacy dermoscopic lesion workflow.",
+      "Handling uncertain, non-skin and low-quality images without presenting an overconfident result.",
+      "Designing a responsible prototype with explicit privacy, validation and medical-use limitations.",
+    ],
+    results: [
+      { label: "Main condition classes", value: 4 },
+      { label: "Legacy lesion labels", value: 7 },
+      { label: "Inference format", value: 1, suffix: " TFLite" },
+      { label: "Report format", value: 1, suffix: " PDF" },
+    ],
+    resultNarrative:
+      "The project demonstrates a complete computer-vision product flow from image upload to model assessment and report generation. It is an educational prototype only: predictions can be incorrect and are not a medical diagnosis or a basis for treatment decisions.",
+    architecture: [
+      { step: "Capture", detail: "Upload or camera image" },
+      { step: "Check", detail: "Sharpness, brightness & skin gate" },
+      { step: "Infer", detail: "TFLite image classification" },
+      { step: "Report", detail: "Result panel + PDF download" },
+    ],
+    screenshots: [
+      { caption: "SkinScanix browser interface" },
+      { caption: "Image assessment and confidence panel" },
+      { caption: "Generated PDF report" },
+    ],
+  },
 ];
 
 export const projectCategories: ("All" | ProjectCategory)[] = [
