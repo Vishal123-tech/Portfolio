@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import {
   ArrowLeft,
@@ -191,10 +192,15 @@ export default async function ProjectDetailPage({
                   <figure key={i} className="overflow-hidden rounded-xl border border-border bg-muted">
                     <div className="relative aspect-[16/9]">
                       <div className="absolute inset-0 bg-grid opacity-40" aria-hidden />
-                      <div className="absolute inset-0 grid place-items-center p-3 text-center">
-                        <span className="font-mono text-xs text-muted-foreground">{s.caption}</span>
-                      </div>
+                      {s.src ? (
+                        <Image src={s.src} alt={s.caption} fill sizes="(max-width: 1024px) 100vw, 33vw" className="object-cover" />
+                      ) : (
+                        <div className="absolute inset-0 grid place-items-center p-3 text-center">
+                          <span className="font-mono text-xs text-muted-foreground">{s.caption}</span>
+                        </div>
+                      )}
                     </div>
+                    <figcaption className="border-t border-border px-3 py-2 text-xs text-muted-foreground">{s.caption}</figcaption>
                   </figure>
                 ))}
               </div>

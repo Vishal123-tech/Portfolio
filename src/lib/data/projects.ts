@@ -28,7 +28,7 @@ export interface Project {
   resultNarrative: string;
   /** Architecture steps rendered as a flow diagram. */
   architecture: { step: string; detail: string }[];
-  screenshots: { caption: string }[];
+  screenshots: { caption: string; src?: string }[];
 }
 
 export const projects: Project[] = [
@@ -250,9 +250,9 @@ export const projects: Project[] = [
       { step: "Report", detail: "Result panel + PDF download" },
     ],
     screenshots: [
-      { caption: "SkinScanix browser interface" },
-      { caption: "Image assessment and confidence panel" },
-      { caption: "Generated PDF report" },
+      { caption: "SkinScanix browser interface", src: "/images/projects/skinscanix-ui.png" },
+      { caption: "Generated PDF report", src: "/images/projects/skinscanix-report.png" },
+      { caption: "Image assessment and confidence panel", src: "/images/projects/skinscanix-analysis.png" },
     ],
   },
 ];
