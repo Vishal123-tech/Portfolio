@@ -263,6 +263,13 @@ export const projectCategories: ("All" | ProjectCategory)[] = [
   "Machine Learning",
 ];
 
+/** Keeps the latest flagship project at the top wherever projects are displayed. */
+export const projectsInDisplayOrder = [...projects].sort((a, b) => {
+  if (a.slug === "ai-skin-disease-detection") return -1;
+  if (b.slug === "ai-skin-disease-detection") return 1;
+  return 0;
+});
+
 export function getProject(slug: string): Project | undefined {
   return projects.find((p) => p.slug === slug);
 }

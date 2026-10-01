@@ -3,7 +3,7 @@
 import * as React from "react";
 import { Search, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
-import { projects as allProjects, projectCategories } from "@/lib/data/projects";
+import { projectsInDisplayOrder as allProjects, projectCategories } from "@/lib/data/projects";
 import { ProjectCard } from "@/components/shared/project-card";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";

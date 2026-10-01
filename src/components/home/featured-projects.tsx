@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { projects } from "@/lib/data/projects";
+import { projectsInDisplayOrder } from "@/lib/data/projects";
 import { Section, SectionHeading } from "@/components/shared/section";
 import { Reveal } from "@/components/shared/reveal";
 import { ProjectCard } from "@/components/shared/project-card";
 import { Button } from "@/components/ui/button";
 
 export function FeaturedProjects() {
-  const featured = projects.filter((p) => p.featured).slice(0, 3);
+  const featured = projectsInDisplayOrder.filter((p) => p.featured).slice(0, 3);
   return (
     <Section id="featured">
       <SectionHeading
